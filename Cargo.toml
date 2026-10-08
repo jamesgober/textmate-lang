@@ -3,7 +3,7 @@
 # =============================================================================
 [package]
 name    = "textmate-lang"
-version = "0.1.0"
+version = "0.2.0"
 
 # Minimum Supported Rust Version (MSRV)
 rust-version = "1.85"
@@ -51,7 +51,9 @@ std = []
 # DEPENDENCIES
 # #################################
 [dependencies]
-# First-party -lang dependencies are wired at v0.2.0, when first used.
+# None. textmate-lang has no dependencies: the grammar model, the Oniguruma
+# subset validator, and the JSON writer are all its own (see dev/ROADMAP.md
+# for why no first-party crate is wired).
 
 
 # DEV DEPENDENCIES
