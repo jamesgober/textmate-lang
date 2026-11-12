@@ -52,7 +52,7 @@ Dependency wiring (decided here, recorded per the anti-deferral rule):
 
 ## v0.5.0 - Implementation
 - [ ] Semantic-token legend generation; embedded-language injection; scope naming conventions.
-- [ ] Iterative `Clone`/`Debug`/`PartialEq` for `Rule` and `Grammar` (family policy F11): the derived impls recurse, so a programmatically built tree far deeper than `MAX_RULE_DEPTH` can overflow on clone/debug/eq. Untrusted grammars cannot reach this (validation caps depth); moved here from 0.2 by the coordinator's review.
+- [ ] Iterative `Clone`/`Debug`/`PartialEq` for `Rule` and `Grammar` (family policy F11): the derived impls recurse, so a programmatically built tree far deeper than `MAX_RULE_DEPTH` can overflow on clone/debug/eq. Untrusted grammars cannot reach this (validation caps depth); moved here from 0.2 after review.
 
 ## v0.9.0 - Hardening
 - [ ] Fuzzing emission for injection; validation against real editor loaders (dev-only).
