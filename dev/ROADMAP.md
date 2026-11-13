@@ -1,7 +1,6 @@
 # textmate-lang - Roadmap
 
 > Path from scaffold to a stable 1.0. Hard parts are front-loaded; each phase has hard exit criteria.
-> Master plan: ../_lexersketch/ROADMAP.md and ../_lexersketch/NEW-LIBS.md
 >
 > **Anti-deferral rule:** no listed hard task moves to a later phase unless this file records the move and the reason.
 
@@ -58,4 +57,4 @@ Dependency wiring (decided here, recorded per the anti-deferral rule):
 - [ ] Fuzzing emission for injection; validation against real editor loaders (dev-only).
 
 ## v1.0.0 - Stable
-- [ ] Frozen after the LexerSketch VS Code extension ships grammars from it (D18).
+- [ ] Frozen after the toolchain's VS Code extension ships grammars from it (D18).

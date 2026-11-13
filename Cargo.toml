@@ -19,7 +19,7 @@ readme = "README.md"
 description = "TextMate grammar and semantic-token legend generation for editors without tree-sitter."
 
 # Keywords (5 max)
-keywords = ["textmate", "syntax-highlighting", "grammar", "editor", "lexersketch"]
+keywords = ["textmate", "syntax-highlighting", "grammar", "editor"]
 
 # Categories
 categories = ["development-tools", "text-processing", "no-std"]
